@@ -1,3 +1,4 @@
+import 'package:collegeproject/test1.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,7 +10,7 @@ class Test extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "First App",
-      home: FirstScreen(),
+      home: Test1(),
     );
   }
 }
@@ -21,7 +22,7 @@ class FirstScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blue,
-          title: Text("First Screen"),
+          title: Text("First Screen",style: TextStyle(fontFamily: "sans",color: Colors.white),),
           centerTitle: true,
         ),
         body: SingleChildScrollView(
