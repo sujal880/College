@@ -1,3 +1,4 @@
+import 'package:collegeproject/input.dart';
 import 'package:collegeproject/test1.dart';
 import 'package:flutter/material.dart';
 
@@ -10,7 +11,7 @@ class Test extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "First App",
-      home: Test1(),
+      home: Input(),
     );
   }
 }
